@@ -1,0 +1,95 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fafafa;
+  transition: background 0.3s ease;
+}
+
+.footer.dark {
+  background: #2a2a3d;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.thebtn {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.thebtn:hover {
+  color: #4a90e2;
+}
+
+
+.Slide i {
+  font-size: 1rem;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.Slide i:hover {
+  transform: scale(1.2);
+  color: #4a90e2;
+}
+
+.Slide button {
+  inherits: true;
+}
+
+.liked {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.likebtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #e74c3c;
+  transition: transform 0.2s ease;
+}
+
+.likebtn:hover {
+  transform: scale(1.2);
+}
+
+
+.contactbtn {
+  margin-left: 9px;
+  background: #4a90e2;
+  border: none;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contactbtn:hover {
+  background: #357abd;
+  transform: translateY(-2px);
+}
+
+.prev-btn {
+  background: transparent;
+  border: none;
+}
+
+.next-btn {
+  background: transparent;
+  border: none;
+}
